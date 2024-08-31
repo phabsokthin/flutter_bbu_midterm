@@ -14,11 +14,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
 
-      home: MyEcommerce()
+      // home: MyEcommerce()
 
           //below is Screen 2
 
-      //   home: MyEcommerce2()
+        //ធ្វើបាន៨០% លោកគ្រូ
+        home: MyEcommerce2()
     );
   }
 }
