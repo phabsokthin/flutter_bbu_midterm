@@ -1,4 +1,6 @@
+import 'package:bbu_exam/bottomNavigation/navigationBottom.dart';
 import 'package:bbu_exam/screen/e-commerce-home-2.dart';
+import 'package:bbu_exam/screen/e-commerce-home-3.dart';
 import 'package:bbu_exam/screen/e-commerce-home.dart';
 import 'package:flutter/material.dart';
 
@@ -18,8 +20,11 @@ class MyApp extends StatelessWidget {
 
           //below is Screen 2
 
-        //ធ្វើបាន៨០% លោកគ្រូ
-        home: MyEcommerce2()
+
+        // home: MyEcommerce2()
+
+      //final exxam
+      home:  MyBottomNavigation(),
     );
   }
 }
